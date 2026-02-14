@@ -46,8 +46,8 @@ export default function WeatherApp() {
 
   return (
 
-    <main className="min-h-screen bg-gray-50 flex items-center justify-center p-4 font-sans text-gray-900">
-      <div className="w-full max-w-md bg-white border border-gray-200 rounded-3xl p-8 shadow-xl">
+    <main className="min-h-[100dvh] bg-gray-50 flex items-center justify-center p-4 font-sans text-gray-900">
+      <div className="w-full max-w-md bg-white border border-gray-200 rounded-3xl p-6 sm:p-8 shadow-xl">
         
         <h1 className="text-3xl font-bold mb-6 text-center tracking-tight text-gray-800">
           Weather App
@@ -82,7 +82,7 @@ export default function WeatherApp() {
 
             <h2 className="text-xl text-gray-500 mb-1">{weather.name}, {weather.sys.country}</h2>
 
-            <div className="text-7xl font-black mb-2 text-gray-800">
+            <div className="text-6xl sm:text-7xl font-black mb-2 text-gray-800">
               {weather.main.temp}°
             </div>
 
